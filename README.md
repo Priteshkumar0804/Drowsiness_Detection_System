@@ -104,7 +104,9 @@ Matplotlib
 This project is open source and available under the MIT License.
 
 🙋‍♂️ Author
+
 Pritesh Kumar
+
 GitHub: https://github.com/Priteshkumar0804
 
 ⭐ Show Your Support
@@ -112,5 +114,6 @@ GitHub: https://github.com/Priteshkumar0804
 If you like this project, don't forget to:
 
 ⭐ Star this repo
+
 🛠️ Suggest enhancements via Issues or PRs
 
