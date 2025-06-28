@@ -1,5 +1,6 @@
 streamlit
 opencv-python
-mediapipe
-playsound==1.2.2
+mediapipe==0.10.10
 matplotlib
+numpy
+pygame
