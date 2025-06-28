@@ -34,11 +34,17 @@ Built with:
 
 drowsiness_detection_system/
 ├── app.py # Streamlit UI
+
 ├── video_processor.py # Camera frame logic & facial analysis
+
 ├── utils.py # EAR, MAR, sound logic
+
 ├── assets/
+
 │ └── alarm.mp3 # Custom alarm sound
+
 ├── snapshots/ # (Optional) For saving alert screenshots
+
 ├── README.md # You're reading it!
 
 
@@ -87,16 +93,23 @@ streamlit run app.py
 🔧 Customization Options
 
 Adjust EAR/MAR thresholds from the sidebar
+
 Replace alarm sound with your own in utils.py
+
 Enhance visuals with themes in Streamlit config
 
 📦 Dependencies
 
 Python 3.10+
+
 OpenCV
+
 MediaPipe
+
 Streamlit
+
 Pygame
+
 Matplotlib
 
 
