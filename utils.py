@@ -1,6 +1,7 @@
+import pygame
 import os
-import numpy as np
-from playsound import playsound
+import numpy as np  # ✅ playsound is no longer needed
+
 import threading
 
 # Path to the alarm sound file
