@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from video_processor import process_video_frame
 
-st.set_page_config(page_title="Drowsiness Detection", layout="wide")
-st.title("👁️ Drowsiness Detection System")
+st.set_page_config(page_title="Driver Drowsiness Detection", layout="wide")
+st.title("👁️ Driver Drowsiness Detection System")
 
 # Sidebar settings
 st.sidebar.subheader("🔧 Detection Settings")

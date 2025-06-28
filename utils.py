@@ -1,8 +1,6 @@
 import pygame
 import os
-import numpy as np  # ✅ playsound is no longer needed
-
-import threading
+import numpy as np
 
 # Path to the alarm sound file
 alarm_path = os.path.join("assets", "alarm.mp3")
@@ -42,12 +40,17 @@ def calculate_MAR(mouth):
 # -----------------------
 def sound_alert():
     """
-    Plays the alarm sound in a separate thread.
+    Plays an alarm sound in a loop if not already playing.
     """
-    threading.Thread(target=playsound, args=(alarm_path,), daemon=True).start()
+    if not pygame.mixer.get_init():
+        pygame.mixer.init()
+    if not pygame.mixer.music.get_busy():
+        pygame.mixer.music.load(alarm_path)
+        pygame.mixer.music.play(loops=-1)
 
 def stop_sound():
     """
-    playsound has no built-in stop function, so this is just a placeholder.
+    Stops the alarm sound if it's playing.
     """
-    pass
+    if pygame.mixer.get_init() and pygame.mixer.music.get_busy():
+        pygame.mixer.music.stop()

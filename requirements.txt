@@ -1,6 +1,6 @@
 streamlit
-opencv-python-headless
-mediapipe==0.10.10
-matplotlib
+opencv-python
+mediapipe
 numpy
 pygame
+matplotlib
