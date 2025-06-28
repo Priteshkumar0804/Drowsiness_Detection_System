@@ -83,12 +83,6 @@ assets/alarm.mp3
 streamlit run app.py
 
 
-## 🎨 UI Snapshots
-
-![Main UI and Graph](Screenshot/Screenshot_2025-06-28_140429.png)
-
-![Graph UI and Graph](Screenshot/Screenshot_2025-06-28_140517.png)
-
 
 🔧 Customization Options
 
